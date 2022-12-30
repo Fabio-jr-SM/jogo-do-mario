@@ -12,7 +12,7 @@ Esse jogo tem como objetivo possibilitar que os usuarios que navegam na web se d
 ## Apresentação:
  
 ### Tela Inicial: 
-<img src="img/prest-game/inicial.png" width="200px" height="80px">
+<img src="img/prest-game/inicial.png" width="100px" height="600px">
 
 Tela de Jogo: 
 <img src="img/prest-game/game2.png">
