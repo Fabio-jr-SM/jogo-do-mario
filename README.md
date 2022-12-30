@@ -2,7 +2,7 @@
 
 Esse jogo tem como objetivo possibilitar que os usuarios que navegam na web se dirvitam com o jogo do mario!!
 
-Para Jogar o jogo <a src="https://fabio-jr-sm.github.io/jogo-do-mario/">Clique aqui!!</a>
+Para Jogar o jogo <a hrf="https://fabio-jr-sm.github.io/jogo-do-mario/">Clique aqui!!</a>
 
 ## Tecnologias usadas: 
 <ul>
