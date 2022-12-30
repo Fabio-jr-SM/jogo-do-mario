@@ -12,10 +12,10 @@ Esse jogo tem como objetivo possibilitar que os usuarios que navegam na web se d
 ## Apresentação:
  
 ### Tela Inicial: 
-<img src="img/prest-game/inicial.png" width="1000px" height="600px">
+<img src="img/prest-game/inicial.png">
 
-Tela de Jogo: 
-<img src="img/prest-game/game2.png" width="1000px" height="600px">
+### Tela de Jogo: 
+<img src="img/prest-game/game2.png">
 
-Tela de GameOver:
-<img src="img/prest-game/gameover.png" width="1000px" height="600px">
+### Tela de GameOver:
+<img src="img/prest-game/gameover.png">
