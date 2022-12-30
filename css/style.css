@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: VT323;
+    font-size: 70px;
+    color: #3eaa00;
+}
+
+.game-board{
+    width: 100%;
+    height: 500px;
+    border-bottom: 15px solid #3eaa00;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#00d9ff,#fff);
+}
+
+.pipe{
+    position: absolute;
+    bottom: 0;
+    width: 70px;
+    animation: pipe-animation 1.5s infinite linear;
+}
+
+.mario{
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+}
+
+.jump{
+    animation: jump 500ms ease-out;
+}
+
+.clouds{
+    width: 550px;
+    position: absolute;
+    animation:clauds-animations 25s infinite linear;
+}
+
+.cuble{
+    position: absolute;
+    animation: cuble-animations 3s infinite linear;
+    width: 60px;
+    height: 60px;
+    top: 150px;
+    display: none;
+}
+
+.btn, .gameOver, .btn-1{
+    margin: 0 auto;
+    border: none;
+    display: none;
+    font-weight: bolder;
+}
+
+.btn-1{
+    font-size: 50px;
+    color: rgb(255, 166, 0);
+    cursor: pointer;
+}
+
+.btn-1:hover{    
+    color: red;
+}
+
+.div-btn{
+    text-align: center;
+}
+
+.gameOver{
+    margin-top: auto;
+    width: 100px;
+    height: 100px;
+    display: none;
+    text-align: center;
+}
+
+.score{
+    text-align: right;
+    padding: 10px;
+}
+
+.sauds{
+    text-align: center;
+}
+
+@keyframes pipe-animation {
+    from{
+        right: -80px;
+    }
+
+    to{
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+    0%{
+        bottom: 0;
+    }
+
+    40%{
+        bottom: 180px;
+    }
+
+    50%{
+        bottom: 180px;
+    }
+
+    60%{
+        bottom: 180px;
+    }
+
+    100%{
+        bottom: 0;
+    }
+}
+
+@keyframes clauds-animations{
+    from{
+        right: -550px;
+    }
+
+    to{
+        right: 100%;
+    }
+}
+
+@keyframes cuble-animations{
+    from{
+        right: -550px;
+    }
+
+    to{
+        right: 100%;
+    }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icons8-super-mario-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/refresh.js" defer></script>
+    <title>Mario</title>
+</head>
+<body onclick="jump()">
+    <div class="game-board">
+        <img src="./img/clouds.png" class="clouds">
+        <img src="./img/mario.gif" class="mario">
+        <img src="./img/pipe.png" class="pipe">
+        <img src="https://i.gifer.com/Uf9O.gif" class="cuble">
+
+        <h2 class="score">0</h2>
+
+        <div class="sauds">
+            <div class="home-page">
+                <h1>Bem vindo ao jogo Mario Web</h1>
+                <img src="https://i.gifer.com/ZS3t.gif" alt="gif.mario" class="goGame" onclick="initGame()" width="300px" height="300px">                
+            </div>
+
+            <div class="div-btn">
+                <p class="btn">Game Over 😞</p>
+                <img src="https://i.gifer.com/XOsX.gif" class="gameOver">
+                <p class="record"></p>
+                <p class="btn-1" id="refresh">Reiniciar </p>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
